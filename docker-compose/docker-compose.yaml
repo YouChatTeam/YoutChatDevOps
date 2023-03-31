@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  cassandra:
+    image: 'bitnami/cassandra:latest'
+    volumes:
+      - cassandra:/bitnami
+    
+  
+volumes:
+  cassandra:
